@@ -17,5 +17,7 @@ const UsuariosSchema = new Schema({
   admin: Boolean,
 });
 
+//Formato Date: aaaa-mm-dd
+
 //Convertir a modelo
 module.exports = mongoose.model("Usuarios", UsuariosSchema);
